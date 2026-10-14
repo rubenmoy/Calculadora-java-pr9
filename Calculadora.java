@@ -24,7 +24,7 @@ public class Calculadora {
 
             switch (operacion) {
                 case 1 -> {
-                    resultado = num1 + num2;
+                    resultado = num1 + num2;  //Modificada la funcion suma
                     System.out.println("Resultado: " + num1 + " + " + num2 + " = " + resultado);
                 }
                 case 2 -> {
